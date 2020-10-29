@@ -1,0 +1,29 @@
+h1{
+    color:aquamarine;
+    border: solid;
+    background-color: blueviolet;
+}
+.header{
+    background-color:lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: ridge;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+body{
+    margin: 10px
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:red;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
